@@ -1,0 +1,8 @@
+clusterName: alive-eks-dev
+region: ap-northeast-2
+
+replicaCount: 1
+
+serviceAccount:
+  create: false
+  name: aws-load-balancer-controller
